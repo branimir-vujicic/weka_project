@@ -3,10 +3,10 @@
 ## Dataset
 
 Ovaj skup podataka (ml-latest-small) opisuje ocenu sa 5 zvezdica i aktivnost označavanja slobodnim tekstom
-iz [MovieLens](http://movielens.org), usluge za preporuku filmova. Sadrži 100836 ocena i 3683 aplikacije oznaka (tag) u 9742
+iz [MovieLens](http://movielens.org), usluge za preporuku filmova. Sadrži 100836 ocena i 3683 aplikacije oznaka (tag) u
+9742
 filma. Ove podatke je kreiralo 610 korisnika između 29. marta 1996. i 24. septembra 2018. Ovaj skup podataka je
 generisan 26. septembra 2018.
-
 
 Kreiran je novi set podataka koji je kombinovan set od datoteka ratings.csv i movies.csv
 
@@ -21,7 +21,7 @@ primer strukture je:
     1,5,"Usual Suspects, The (1995)"
     1,3,"From Dusk Till Dawn (1996)"
 
-##    
+##     
 
             NearestNeighbourSearch collaborativeFilter = new LinearNNSearch();
             collaborativeFilter.setDistanceFunction(new EuclideanDistance());
