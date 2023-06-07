@@ -68,16 +68,17 @@ Algoritam za kolaborativno filtriranje, koji koristi k-najbliže susede, funkcio
 ## rezultat :
 
 Movie Recommendations:
-5.0 Monty Python's Life of Brian (1979)
-5.0 Star Wars: Episode IV - A New Hope (1977)
-5.0 Tombstone (1993)
-5.0 Sword in the Stone, The (1963)
-5.0 Reservoir Dogs (1992)
-5.0 Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)
-5.0 Indiana Jones and the Last Crusade (1989)
-5.0 Fantasia (1940)
-5.0 M*A*S*H (a.k.a. MASH) (1970)
-5.0 X-Men (2000)
+
+    5.0 Monty Python's Life of Brian (1979)
+    5.0 Star Wars: Episode IV - A New Hope (1977)
+    5.0 Tombstone (1993)
+    5.0 Sword in the Stone, The (1963)
+    5.0 Reservoir Dogs (1992)
+    5.0 Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)
+    5.0 Indiana Jones and the Last Crusade (1989)
+    5.0 Fantasia (1940)
+    5.0 M*A*S*H (a.k.a. MASH) (1970)
+    5.0 X-Men (2000)
 
 ## Evaluacija
 
