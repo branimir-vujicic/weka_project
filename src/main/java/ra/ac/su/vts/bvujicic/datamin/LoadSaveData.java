@@ -10,14 +10,14 @@ import java.io.File;
 import weka.core.converters.ConverterUtils.DataSource;
 public class LoadSaveData{
     public static void main(String args[]) throws Exception{
-        DataSource source = new DataSource("Result_9.csv");
+        DataSource source = new DataSource("movie_ratings_dataset.csv");
         Instances dataset = source.getDataSet();
 
         System.out.println(dataset.toSummaryString());
 
         ArffSaver saver = new ArffSaver();
         saver.setInstances(dataset);
-        saver.setFile(new File("Result_9.arff"));
+        saver.setFile(new File("movie_ratings_dataset.arff"));
         saver.writeBatch();
     }
 }

@@ -19,7 +19,7 @@ public class MovieRecommendationSystem {
     public static void main(String[] args) {
         try {
             // Load the dataset
-            Instances data = loadData("Result_9.arff");
+            Instances data = loadData("movie_ratings_dataset.arff");
 
             // Split the data into training and testing sets
             Instances trainingData = splitData(data, 80);
